@@ -6,6 +6,11 @@ Script purpose
   This script create a new "DataWarehouse" after checking if it already exists .
   if the databse exists, it is dorpped and recreated.  additionally , the script sets up three schemas 
   within the database :'bronze','silver','gold'
+
+  WARNING:
+    Running this script will drop the entier 'DataWarehouse' databse if it exists.
+    All the database will be permanently deleted. Proceed with caution 
+    and ensure you have proper backups before running this script.
 */
 
 
